@@ -1,12 +1,11 @@
 #include <avr/io.h>
-#include <util/delay.h>
+#include <avr/interrupt.h>
 
 ISR(TIMER1_COMPA_vect) {
   PINB |= _BV(PINB5);  
 }
 
 void init() {
-  noInterrupts();
   cli();
   DDRB &= 0;
   DDRD &= 0;
