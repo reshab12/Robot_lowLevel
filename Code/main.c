@@ -1,6 +1,7 @@
 #include <avr/io.h>
 #include <avr/interrupt.h>
 
+//This blinks the LED with an interrupt every second.
 ISR(TIMER1_COMPA_vect) {
   PINB |= _BV(PINB5);  
 }
