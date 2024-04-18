@@ -8,6 +8,7 @@ ISR(TIMER1_COMPA_vect) {
 
 void init() {
   cli();
+  //Set up the Pins as input and output.
   DDRB &= 0;
   DDRD &= 0;
   DDRB |= _BV(DDB5);  //Set LED as output
@@ -20,10 +21,11 @@ void init() {
   DDRD |= _BV(DDD3);  //Set D3 as output. PWM
   DDRD |= _BV(DDD4);  //Set D4 as output. 
 
+  //Start rotating motors in one direction
   PINB |= _BV(PINB0);
   PIND |= _BV(PIND2);
 
-  //cli(); //dont know what it does
+  //Set up the timer interrupts.
   TCCR1A &= 0; //Reset Register
   TCCR1B &= 0; //Reset Register
   OCR1A = 15624;  // = (target time / timer resolution) - 1 or 1 / 6.4e-5 - 1 = 15624
@@ -45,6 +47,8 @@ void init() {
   TCCR2A &= ~(1<<COM2A0);
   TCCR2A |= (1<<COM2B1); //Set clear on match and not inverted mode
   TCCR2B &= ~(1<<COM2B0);
+
+  //Set up the pin change interrupts.
   sei();
 }
 
