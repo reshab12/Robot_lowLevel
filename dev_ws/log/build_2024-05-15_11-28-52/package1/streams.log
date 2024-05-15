@@ -1,0 +1,11 @@
+[0.018s] Invoking command in '/home/reshab/Documents/Projects/Robot_lowLevel/dev_ws/build/package1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/reshab/Documents/Projects/Robot_lowLevel/dev_ws/build/package1 -- -j4 -l4
+[0.065s] [35m[1mConsolidate compiler generated dependencies of target keyboardListener[0m
+[0.087s] [ 50%] [32mBuilding CXX object CMakeFiles/keyboardListener.dir/src/keyboardListener.cpp.o[0m
+[3.477s] [100%] [32m[1mLinking CXX executable keyboardListener[0m
+[3.633s] /usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':
+[3.633s] (.text+0x1b): undefined reference to `main'
+[3.641s] collect2: error: ld returned 1 exit status
+[3.643s] gmake[2]: *** [CMakeFiles/keyboardListener.dir/build.make:159: keyboardListener] Error 1
+[3.644s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/keyboardListener.dir/all] Error 2
+[3.644s] gmake: *** [Makefile:146: all] Error 2
+[3.646s] Invoked command in '/home/reshab/Documents/Projects/Robot_lowLevel/dev_ws/build/package1' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/reshab/Documents/Projects/Robot_lowLevel/dev_ws/build/package1 -- -j4 -l4

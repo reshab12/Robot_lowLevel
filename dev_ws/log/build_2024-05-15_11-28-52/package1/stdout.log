@@ -1,0 +1,3 @@
+[35m[1mConsolidate compiler generated dependencies of target keyboardListener[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/keyboardListener.dir/src/keyboardListener.cpp.o[0m
+[100%] [32m[1mLinking CXX executable keyboardListener[0m

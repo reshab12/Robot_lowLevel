@@ -1,0 +1,20 @@
+[0.011s] Invoking command in '/home/reshab/Documents/Projects/Robot_lowLevel/dev_ws/build/package1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/reshab/Documents/Projects/Robot_lowLevel/dev_ws/build/package1 -- -j4 -l4
+[0.057s] Invoked command in '/home/reshab/Documents/Projects/Robot_lowLevel/dev_ws/build/package1' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/reshab/Documents/Projects/Robot_lowLevel/dev_ws/build/package1 -- -j4 -l4
+[0.092s] Invoking command in '/home/reshab/Documents/Projects/Robot_lowLevel/dev_ws/build/package1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/reshab/Documents/Projects/Robot_lowLevel/dev_ws/build/package1
+[0.100s] -- Install configuration: ""
+[0.100s] -- Up-to-date: /home/reshab/Documents/Projects/Robot_lowLevel/dev_ws/install/package1/share/ament_index/resource_index/package_run_dependencies/package1
+[0.101s] -- Up-to-date: /home/reshab/Documents/Projects/Robot_lowLevel/dev_ws/install/package1/share/ament_index/resource_index/parent_prefix_path/package1
+[0.101s] -- Up-to-date: /home/reshab/Documents/Projects/Robot_lowLevel/dev_ws/install/package1/share/package1/environment/ament_prefix_path.sh
+[0.101s] -- Up-to-date: /home/reshab/Documents/Projects/Robot_lowLevel/dev_ws/install/package1/share/package1/environment/ament_prefix_path.dsv
+[0.101s] -- Up-to-date: /home/reshab/Documents/Projects/Robot_lowLevel/dev_ws/install/package1/share/package1/environment/path.sh
+[0.101s] -- Up-to-date: /home/reshab/Documents/Projects/Robot_lowLevel/dev_ws/install/package1/share/package1/environment/path.dsv
+[0.101s] -- Up-to-date: /home/reshab/Documents/Projects/Robot_lowLevel/dev_ws/install/package1/share/package1/local_setup.bash
+[0.102s] -- Up-to-date: /home/reshab/Documents/Projects/Robot_lowLevel/dev_ws/install/package1/share/package1/local_setup.sh
+[0.102s] -- Up-to-date: /home/reshab/Documents/Projects/Robot_lowLevel/dev_ws/install/package1/share/package1/local_setup.zsh
+[0.102s] -- Up-to-date: /home/reshab/Documents/Projects/Robot_lowLevel/dev_ws/install/package1/share/package1/local_setup.dsv
+[0.102s] -- Up-to-date: /home/reshab/Documents/Projects/Robot_lowLevel/dev_ws/install/package1/share/package1/package.dsv
+[0.102s] -- Up-to-date: /home/reshab/Documents/Projects/Robot_lowLevel/dev_ws/install/package1/share/ament_index/resource_index/packages/package1
+[0.102s] -- Up-to-date: /home/reshab/Documents/Projects/Robot_lowLevel/dev_ws/install/package1/share/package1/cmake/package1Config.cmake
+[0.102s] -- Up-to-date: /home/reshab/Documents/Projects/Robot_lowLevel/dev_ws/install/package1/share/package1/cmake/package1Config-version.cmake
+[0.103s] -- Up-to-date: /home/reshab/Documents/Projects/Robot_lowLevel/dev_ws/install/package1/share/package1/package.xml
+[0.104s] Invoked command in '/home/reshab/Documents/Projects/Robot_lowLevel/dev_ws/build/package1' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/reshab/Documents/Projects/Robot_lowLevel/dev_ws/build/package1
