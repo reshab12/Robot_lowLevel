@@ -1,0 +1,26 @@
+[35m[1mConsolidate compiler generated dependencies of target keyboardListener[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/keyboardListener.dir/src/keyboardListener.cpp.o[0m
+[01m[K/home/reshab/Documents/Projects/Robot_lowLevel/dev_ws/src/package1/src/keyboardListener.cpp:6:26:[m[K [01;31m[Kerror: [m[Ktemporary of non-literal type ‘[01m[Krclcpp::Node[m[K’ in a constant expression
+    6 |         KeyboardListener:[01;31m[KNode("keyboardListener")[m[K{
+      |                          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/reshab/Documents/Projects/Robot_lowLevel/dev_ws/src/package1/src/keyboardListener.cpp:2[m[K:
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:77:7:[m[K [01;36m[Knote: [m[K‘[01m[Krclcpp::Node[m[K’ is not literal because:
+   77 | class [01;36m[KNode[m[K : public std::enable_shared_from_this<Node>
+      |       [01;36m[K^~~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:77:7:[m[K [01;36m[Knote: [m[K  ‘[01m[Krclcpp::Node[m[K’ has a non-trivial destructor
+[01m[K/home/reshab/Documents/Projects/Robot_lowLevel/dev_ws/src/package1/src/keyboardListener.cpp:6:50:[m[K [01;31m[Kerror: [m[Kdefault member initializer for unnamed bit-field
+    6 |         KeyboardListener:Node("keyboardListener")[01;31m[K{[m[K
+      |                                                  [01;31m[K^[m[K
+[01m[K/home/reshab/Documents/Projects/Robot_lowLevel/dev_ws/src/package1/src/keyboardListener.cpp:9:9:[m[K [01;31m[Kerror: [m[Kname ‘[01m[KKeyboardListener[m[K’ has incomplete type
+    9 |         [01;31m[K}[m[K
+      |         [01;31m[K^[m[K
+[01m[K/home/reshab/Documents/Projects/Robot_lowLevel/dev_ws/src/package1/src/keyboardListener.cpp:9:9:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+    9 |         [01;31m[K}[m[K
+      |         [01;31m[K^[m[K
+      |          [32m[K;[m[K
+gmake[2]: *** [CMakeFiles/keyboardListener.dir/build.make:76: CMakeFiles/keyboardListener.dir/src/keyboardListener.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/keyboardListener.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2
